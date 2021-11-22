@@ -1,4 +1,5 @@
 from buscaminas import Buscaminas
+# from mybuscaminas import Buscaminas
 
 if __name__ == '__main__':
     movs = ['flag', 'uncover']

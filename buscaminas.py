@@ -1,6 +1,5 @@
 from random import randint
 
-
 class Buscaminas:
     def __init__(self, rows=8, cols=8, bombs=10):
         self.rows = rows

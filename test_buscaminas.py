@@ -1,7 +1,7 @@
 import unittest
 import unittest.mock
-
-from buscaminas import Buscaminas
+from mybuscaminas import Buscaminas
+# from buscaminas import Buscaminas
 
 
 class TestBuscaminas(unittest.TestCase):
@@ -14,6 +14,7 @@ class TestBuscaminas(unittest.TestCase):
                       ['2', '2', '1', ' ', ' ', ' ', ' ', ' '],
                       [' ', ' ', '1', '1', '1', ' ', ' ', ' '],
                       [' ', ' ', '1', 'B', '1', ' ', ' ', ' ']]
+                      
         self.caso2 = [[' ', '1', 'B', 'B', '1', ' ', '1', 'B'],
                       ['1', '2', '2', '2', '1', ' ', '1', '1'],
                       ['B', '3', '2', '1', ' ', ' ', '1', '1'],
