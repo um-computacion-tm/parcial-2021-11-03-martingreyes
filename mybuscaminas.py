@@ -74,11 +74,6 @@ class Buscaminas:
 
 
 
-if __name__ == '__main__':
-    game = Buscaminas(8, 8, 10)
-    game.show_board()
-    
-
 
 
 
