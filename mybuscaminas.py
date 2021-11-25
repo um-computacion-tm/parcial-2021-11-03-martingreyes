@@ -1,6 +1,5 @@
 import random
 
-
 class Buscaminas:
     def __init__(self, rows, cols, bombs):
         self.rows = rows
@@ -71,9 +70,14 @@ class Buscaminas:
 
 
 
+if __name__ == '__main__':
 
+    rows = 8
+    cols = 8
+    bombs = 10
 
-
+    game = Buscaminas(rows, cols, bombs)
+    game.show_board()
 
 
 
